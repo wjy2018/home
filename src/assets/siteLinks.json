@@ -2,7 +2,7 @@
   {
     "icon": "Jenkins",
     "name": "Jenkins",
-    "link": "http://127.0.0.1:8080"
+    "link": "frp-arm.top:20231"
   },
   {
     "icon": "Cloud",
