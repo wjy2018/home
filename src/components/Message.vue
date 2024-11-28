@@ -106,7 +106,8 @@ watch(
       font-family: "Pacifico-Regular";
 
       .bg {
-        font-size: 5rem;
+        // 左侧网站大log大小，原大小为5rem
+        font-size: 3.5rem;
       }
 
       .sm {
