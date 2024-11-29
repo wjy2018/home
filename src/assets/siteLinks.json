@@ -5,14 +5,14 @@
     "link": "https://frp-arm.top:20231/login?from=%2F"
   },
   {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": ""
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://blog.lastfantasy.top/"
   },
   {
     "icon": "CompactDisc",
     "name": "音乐",
-    "link": ""
+    "link": "https://music.lastfantasy.top/test"
   },
   {
     "icon": "Compass",
