@@ -2,7 +2,7 @@
   {
     "icon": "Jenkins",
     "name": "Jenkins",
-    "link": "https://frp-arm.top:20231/login?from=%2F"
+    "link": "https://frp-arm.top:20231/"
   },
   {
     "icon": "Blog",
@@ -15,13 +15,13 @@
     "link": "https://music.lastfantasy.top/test"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": ""
+    "icon": "Book",
+    "name": "自定义导航",
+    "link": "https://search.lastfantasy.top/"
   },
   {
-    "icon": "Book",
-    "name": "网址集",
+    "icon": "Compass",
+    "name": "起始页",
     "link": ""
   },
   {
