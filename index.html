@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" />
     <!-- <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" /> -->
     <!-- IE Out -->
+    
+    <!-- modal -->
+    <link rel="stylesheet" href="/src/style/modal.scss" />
+    
     <script>
       if (/*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode))
         window.location.href =
@@ -30,6 +34,21 @@
   <body>
     <!-- 主体内容 -->
     <div id="app"></div>
+
+    <!-- 弹窗更新内容 -->
+    <div id="myModal" class="modal">
+      <div class="modal-content modal-normal">
+          <span class="close">&times;</span>
+          <h3 class="header">本次更新内容</h3>
+          <p style="color:red">2024.12.08 晚</p>
+          <p class="updateContent" >
+              1. 主页加了个弹窗，用来更新近期内容或计划，顺便模拟广告，先了解广告的原理再去针对他，功能先实现了，bug慢慢改<br/>
+              2. 近期主要精力在博客这边，博客这边搞了个音乐播放器，音源都在服务器上(亲自上传的仅供学习使用！)，和主页这个音源不一样，主页是在线api,部分歌曲可能要会员没法播放<br/>
+              3. 一次性搞了很多东西，太杂了，得慢慢消化，小命要紧<br/>
+          </p>
+      </div>
+  </div>
+  <div id="btn"><button data-modal-action="open" data-modal-target="myModal" class="btn">查看本次更新内容</button></div>
     <!-- noscript -->
     <noscript>
       <div style="text-align: center">请开启 JavaScript</div>

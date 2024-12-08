@@ -7,6 +7,8 @@ import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 // swiper
 import "swiper/css";
 
+import "@/utils/modal.js"
+
 const app = createApp(App);
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
