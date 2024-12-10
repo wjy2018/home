@@ -44,6 +44,15 @@ var show = false;
 // document.getElementById("myModal").style.display="none"
 // document.getElementById("btn").style.display="none"
 
+var modalContent = document.getElementById("modalContent");
+
+modalContent.innerHTML = `
+            <h4 style="color:red">2024.12.11 凌晨</h4>
+            <p class="updateContent">
+              1.  近期主要在搞博客，研究live2D看板娘和音乐播放器插件aplayer等。 live2D模型还是可以研究一下的，通过实例本地调整来联系html/css/javascript语法来加深理解。 <br />2.  计划把博客先搞起来，然后在博客里面整理技术文档，然后逐步搭建主页、自定义导航、diy音乐播放器、网站监测等等，后续应该还会更新本地jenkins维护心得、nginx反向代理、cloudflare worker/pages、https证书申请及配置. <br />3.  与其无所事事浪费精力，不如自己找点有意思的东西然后搞起来，哪怕别人觉得没什么意义。人生嘛，不是一条固定的轨道，而是一片旷野，充满着希望和挑战，你可以选择在列车上看风景，但不如走下来去看看更广阔的土地<br />
+            </p>
+            `;
+
 document.onreadystatechange = function () { //当页面加载状态改变的时候执行function
     if (show) {
         return;
@@ -52,6 +61,7 @@ document.onreadystatechange = function () { //当页面加载状态改变的时�
         setTimeout(function () {
             show = true;
             console.log("打开模态框：onreadystatechange " + document.getElementById('myModal'));
+            
             openModal(document.getElementById('myModal'));
         }, 1000);
     }
