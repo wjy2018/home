@@ -46,7 +46,7 @@ var show = false;
 
 var modalContent = document.getElementById("modalContent");
 
-fetch('/public/static/update.md')
+fetch('./static/update.md')
     .then(response => response.text())
     .then(data => {
         modalContent.innerHTML = data;
