@@ -46,18 +46,14 @@ var show = false;
 
 var modalContent = document.getElementById("modalContent");
 
-modalContent.innerHTML = `
-            <h4 style="color:red">2024.12.12 凌晨</h4>
-            <p class="updateContent">
-              1. 主要对博客进行了主题美化 自定鼠标，live2D, 文章更新时间，多列显示友情链接等 <br />
-              2. 后续有空可以看看live2d的东西自己diy一个
-            </p>
-            <h4 style="color:red">2024.12.12 晚</h4>
-            <p class="updateContent">
-            站点监测网站上线，基于cloudflare worker，使用UptimeFlare搭建
-            </p>
-
-            `;
+fetch('/src/static/update.md')
+    .then(response => response.text())
+    .then(data => {
+        modalContent.innerHTML = data;
+    })
+    .catch(error => {
+        console.error('Error fetching update.md:', error);
+    });
 
 document.onreadystatechange = function () { //当页面加载状态改变的时候执行function
     if (show) {
