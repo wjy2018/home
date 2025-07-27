@@ -15,23 +15,28 @@
     "link": "https://musicplayer.lastfantasy.top"
   },
   {
-    "icon": "Book",
-    "name": "自定义导航",
-    "link": "https://search.lastfantasy.top/"
-  },
-  {
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://monitor.lastfantasy.top"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": ""
-  },
-  {
     "icon": "Fire",
     "name": "今日热榜",
+    "link": "https://hot.imsyy.top/"
+  },
+  {
+    "icon": "BookOpen",
+    "name": "打字背单词",
+    "link": "https://2study.top/"
+  },
+  {
+    "icon": "Book",
+    "name": "自定义导航",
+    "link": "https://search.lastfantasy.top/"
+  },
+  {
+    "icon": "Compass",
+    "name": "起始页",
     "link": ""
   }
 ]

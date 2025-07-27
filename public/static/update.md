@@ -1,3 +1,8 @@
+<h4 style="color:red">2025.7.27 早</h4>
+<p class="updateContent">
+  1. 更新今日热榜为github开源网站
+  2. 添加打字背单词网址
+</p>
 <h4 style="color:red">2024.12.15 晚</h4>
 <p class="updateContent">
   近期主要内容还是博客 <br/>
